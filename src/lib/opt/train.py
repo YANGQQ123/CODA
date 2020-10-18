@@ -25,7 +25,7 @@ class TrainModel(object):
         #tensorboard log and step log
         self.logger = logger.Logger(os.path.join(server_root_path, 'log', branch.name))
         self.log_path = os.path.join(server_root_path, 'log', branch.name + '.log')
-        f = open(self.log_path, 'a')
+        f = open(self.log_path, 'a') #a表示写在已有内容之后
         #f.truncate()
         f.close()
 

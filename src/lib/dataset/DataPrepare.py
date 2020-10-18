@@ -330,4 +330,4 @@ def main(argv):
     return 0
 
 if __name__ == '__main__':
-    main(sys.argv[1:])
+    main(sys.argv[1:]) #调用主函数，传入参数；argv是一个list对象，第一个元素是命令行传入的模块名，第2个元素开始时命令行出纳入的参数（每个元素都是str）
